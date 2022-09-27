@@ -1,17 +1,16 @@
 header {
-    background-color: green;
-    align-items: center;
-    
+    background-color: green; 
 }
-
 nav{
     display:flex;
     justify-content: flex-end;
     text-decoration: none;
     padding: 20px;
+
 }
 #logo{
     font-size: 30px;
+    position: absolute;
     
 }
 ul{
@@ -25,6 +24,7 @@ li{
 
 }
 section {
+    border: 10px blue;
 }
 
 #about-me {
@@ -46,8 +46,11 @@ div #about-me-text{
     height: 150px;
     width: 150px;
 }
-
-#project-container{
+#showcase{
+    height: 300px;
+    width: 300px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 #contact-me {
