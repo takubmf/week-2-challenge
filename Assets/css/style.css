@@ -1,23 +1,58 @@
-nav {
-
+header {
+    background-color: green;
+    align-items: center;
+    
 }
 
-section {
+nav{
+    display:flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding: 20px;
+}
+#logo{
+    font-size: 30px;
+    
+}
+ul{
+    display: flex;   
+    justify-content: space-between; 
+}
+li{
+    font-size: 30px;
+    width: 150px;
+    text-decoration: none; 
 
+}
+section {
 }
 
 #about-me {
-
+    background-color: blueviolet;
+}
+div #about-me-text{
+    font-size: 10px;
+}
+#about-me img{
+    height: 200px;
+    width: 200px;
+}
+#projects{
+    font-size: 40px;
+    background-color: green;
 }
 
-#projects {
+#projects img {
+    height: 150px;
+    width: 150px;
+}
 
+#project-container{
 }
 
 #contact-me {
-
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
 }
 
-footer {
-
-}
